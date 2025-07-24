@@ -78,6 +78,63 @@
     font-weight: 500;
 }
 
+/* Our plants section style */
+.our-plants{
+    margin-top: 120px;
+}
+
+.our-plants-header{
+    text-align: center;
+}
+
+.our-plants-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.our{
+    color: #E95A08;
+}
+
+.our-plants-description{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 10px 125px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+    text-align: center;
+    padding: 10px;
+}
+
+.flower-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.flower-price{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.bttn{
+    font-weight: 600;
+    background-color: #E95A08;
+    padding: 20px 80px;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
 
 /* Responsive part */
 @media screen and (max-width: 576px) {
@@ -105,4 +162,27 @@
         font-size: 0.9rem;
         padding: 5px 15px;
     }
+
+    /* Our plants section */
+    .our-plants-title{
+        font-size: 1.5rem;
+    }
+
+    .our-plants-description{
+        font-size: 0.9rem;
+        padding: 10px 50px;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .bttn{
+        padding: 20px 30px;
+    }
+
 }
