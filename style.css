@@ -1,0 +1,67 @@
+/* common property */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 10px auto;
+}
+
+
+/* header section */
+
+/* Navbar style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 48px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li:nth-child(1) a {
+    color: #252432;
+    font-weight: 700;
+}
+
+.navbar ul li:nth-child(2) a,
+.navbar ul li:nth-child(3) a {
+    color: #8987A1;
+}
+
+
+/* Responsive part */
+@media screen and (max-width: 576px) {
+
+    .navbar ul li:nth-child(1),
+    .navbar ul li:nth-child(2),
+    .navbar ul li:nth-child(3) {
+        display: none;
+    }
+}
