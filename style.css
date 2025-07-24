@@ -135,6 +135,29 @@
     color: white;
 }
 
+/* lover section */
+.lover{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lover-div{
+    padding: 20px 50px;
+}
+
+.lover-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.lover-div ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 20px 50px;
+}
+
 
 /* Responsive part */
 @media screen and (max-width: 576px) {
@@ -183,6 +206,26 @@
 
     .bttn{
         padding: 20px 30px;
+    }
+
+    /* lover section */
+
+    .lover{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .lover-div{
+        padding: 20px;
+    }
+
+    .lover-title{
+        font-size: 1.5rem;
+    }
+
+    .lover-div ul li{
+        font-size: 0.9rem;
+        margin: 10px 25px;
     }
 
 }
