@@ -140,6 +140,15 @@
     margin-top: 180px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: -120px;
+    left: 340px;
+    width: 280px;
+    height: auto;
 }
 
 .lover-div{
@@ -316,6 +325,10 @@ footer ul li a{
     .lover-div ul li{
         font-size: 0.9rem;
         margin: 10px 25px;
+    }
+
+    .badge{
+        display: none;
     }
 
     /* join section */
