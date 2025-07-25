@@ -167,6 +167,90 @@
     margin: 20px 50px;
 }
 
+/* latest deal section */
+.latest-deal{
+    margin: 120px auto;
+    text-align: center;
+}
+
+.latest-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.latest{
+    color: #E95A08;
+}
+
+.latest-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+
+.latest-container{
+    margin-top: 120px;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.latest-deal-left{
+    flex: 1;
+}
+
+.left-top{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-bottom{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    border-radius: 15px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.right-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.anchor{
+    color: white;
+}
+
+.latest-deal-right{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 750px;
+    border-radius: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 /* join section */
 
 .join{
@@ -213,7 +297,6 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    /* align-items: center; */
 }
 
 .footer-logo{
@@ -329,6 +412,25 @@ footer ul li a{
 
     .badge{
         display: none;
+    }
+
+    .latest-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .latest-deal-left{
+        flex: 2;
+    }
+
+    .latest-deal-right{
+        width: 420px;
+        flex: 1;
+        margin: 10px 20px;
+    }
+
+    .right-title{
+        font-size: 1.25rem;
     }
 
     /* join section */
